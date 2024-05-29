@@ -206,7 +206,7 @@ header
   z-index: 1000;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
 }
-.background-header .main-nav {
+.background-header .-nav {
   display: flex; /* Usa flexbox para alinear los elementos */
   justify-content: space-between; /* Espacio entre el logo y los enlaces de navegación */
   align-items: center; /* Centra verticalmente los elementos */
@@ -544,6 +544,7 @@ header
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    align-content: center;
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
@@ -1006,12 +1007,12 @@ trainers
 */
 
 #trainers .trainer-item {
-  background-color: rgb(154, 154, 155);
-  border-radius: 5px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  background: radial-gradient(circle, rgba(154, 154, 155, 1), #232d39);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.);
   padding: 40px;
   margin-top: 40px;
-  
+  border: 1px solid rgba(255, 255, 255, 0.1);
   
 }
 
